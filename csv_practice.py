@@ -1,3 +1,11 @@
+# Reflection
+#
+# 1. Python ETL pipeline vs. Excel:
+# Doing this task in Python is different from Excel because Python uses code to automatically read, process, and analyze data. Python can easily automate repetitive tasks and handle large datasets without manual work. Excel is better for quickly viewing data, making simple calculations, and creating charts with a user-friendly interface.
+#
+# 2. Append mode in a real business process:
+# A business might use an append-mode log to record daily sales transactions or system activity over time. Append mode is the right tool because it adds new information without deleting previous records, while using "w" mode would overwrite the file and erase all past log entries.
+
 import csv
 from datetime import datetime
 
